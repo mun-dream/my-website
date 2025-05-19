@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trang Dự Án Cuối - HTML5</title>
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" />
+  <!-- Stylesheet (nếu có) -->
+  <!-- <link rel="stylesheet" href="styles.css" /> -->
+</head>
+<body>
+  <header>
+    <h1>Chào Mừng Đến Trang Dự Án Cuối</h1>
+  </header>
+
+  <main>
+    <!-- Phần giới thiệu -->
+    <section>
+      <h2>Giới Thiệu</h2>
+      <p>Đây là trang web mẫu hoàn chỉnh cho dự án cuối của khóa học HTML5. Trang bao gồm các thẻ ngữ nghĩa, danh sách, hình ảnh và liên kết ngoài.</p>
+    </section>
+
+    <!-- Phần danh sách -->
+    <section>
+      <h2>Danh Sách Yêu Cầu</h2>
+      <ul>
+        <li>DOCTYPE, &lt;head&gt;, &lt;body&gt;, &lt;title&gt; và &lt;main&gt;</li>
+        <li>Ít nhất 3 thẻ ngữ nghĩa: &lt;header&gt;, &lt;main&gt;, &lt;footer&gt;</li>
+        <li>Một danh sách (ít nhất 3 mục)</li>
+        <li>Ít nhất 3 hình ảnh với alt mô tả</li>
+        <li>Ít nhất một liên kết đến nguồn bên ngoài</li>
+      </ul>
+    </section>
+
+    <!-- Phần hình ảnh -->
+    <section>
+      <h2>Thư Viện Ảnh</h2>
+      <figure>
+        <img src="images/photo1.jpg" alt="Hoàng hôn trên bãi biển xanh biếc" />
+        <figcaption>Bãi biển vào lúc hoàng hôn</figcaption>
+      </figure>
+      <figure>
+        <img src="images/photo2.jpg" alt="Cánh đồng hoa tulip nhiều màu sắc" />
+        <figcaption>Cánh đồng hoa tulip tràn ngập sắc màu</figcaption>
+      </figure>
+      <figure>
+        <img src="images/photo3.jpg" alt="Đỉnh núi cao phủ tuyết trắng xóa" />
+        <figcaption>Đỉnh núi mùa đông</figcaption>
+      </figure>
+    </section>
+
+    <!-- Phần liên kết ngoài -->
+    <section>
+      <h2>Tài Nguyên Tham Khảo</h2>
+      <p>Để kiểm tra tính hợp lệ của HTML, bạn có thể sử dụng công cụ
+        <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">W3C Markup Validation</a>.
+      </p>
+    </section>
+
+    <!-- Phần phụ: navigation -->
+    <nav>
+      <h2>Điều Hướng Nhanh</h2>
+      <ol>
+        <li><a href="#gioi-thieu">Giới Thiệu</a></li>
+        <li><a href="#yeu-cau">Yêu Cầu</a></li>
+        <li><a href="#thu-vien-anh">Thư Viện Ảnh</a></li>
+        <li><a href="#tai-nguyen">Tài Nguyên</a></li>
+      </ol>
+    </nav>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tên Bạn - Đã hoàn thành dự án cuối khóa học HTML5.</p>
+  </footer>
+</body>
+
+</html>
